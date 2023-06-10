@@ -5,5 +5,9 @@ import "./index.scss";
 import { useState } from "react";
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
