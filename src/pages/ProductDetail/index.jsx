@@ -22,10 +22,26 @@ export default function ProductDetail() {
 
       <div className="productBox">
         {productsFiltered.map((product) => (
-          <div className="productItem" key={product.id}>
-            <img src={product.imgPath} />
-            <h3>{product.title}</h3>
-            <p>{product.price}</p>
+          <div className="productBox__productItem" key={product.id}>
+            <h1>Minha Sacola</h1>
+            <div className="productBox__productItem__container">
+              <div className="productBox__productItem__container__left">
+                <div className="productBox__productItem__container__left__box">
+                  <img src={product.imgPath} />
+                  <h3>{product.title}</h3>
+                </div>
+                <p>{product.desc}</p>
+              </div>
+              <div className="productBox__productItem__container__right">
+                <h3>{product.title}</h3>
+                <div className="productBox__productItem__container__right__line"></div>
+                <p>{product.price}</p>
+                <div className="productBox__productItem__container__right__buttons">
+                  <button className="continue">Continuar Comprando</button>
+                  <button className="finish">Finalizar Compra</button>
+                </div>
+              </div>
+            </div>
           </div>
         ))}
       </div>
