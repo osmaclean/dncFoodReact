@@ -62,3 +62,266 @@ $primary-color: #e39f0b;
     }
   }
 }
+
+@media (max-width: 1140px) {
+  .Header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary-color;
+    gap: 3rem;
+    figure {
+      img {
+        width: 96px;
+        height: 100%;
+      }
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      margin-right: 10rem;
+      width: 550px;
+      justify-content: space-between;
+      li{
+        color: white;
+        cursor: pointer;
+        font-weight: 600;
+        list-style: none;
+        transition: 500ms ease;
+        border-bottom: 2px solid $primary-color;
+        &:hover{
+          border-bottom: 2px solid rgb(231, 231, 231);
+          color: rgb(231, 231, 231);
+          transition: 500ms ease;
+        }
+      }
+    }
+    button {
+      width: 200px;
+      padding: .5rem;
+      height: 6vh;
+      color: white;
+      background: transparent;
+      border: 2px solid $primary-color;
+      transition: 500ms ease;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: .9rem;
+      display: flex;
+      gap: .5rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        border: 2px solid white;
+        transition: 500ms ease;
+      }
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 890px) {
+  .Header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary-color;
+    gap: 3rem;
+    figure {
+      img {
+        width: 96px;
+        height: 100%;
+      }
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      margin-right: 0rem;
+      width: 550px;
+      justify-content: space-between;
+      li{
+        color: white;
+        cursor: pointer;
+        font-weight: 600;
+        list-style: none;
+        transition: 500ms ease;
+        border-bottom: 2px solid $primary-color;
+        &:hover{
+          border-bottom: 2px solid rgb(231, 231, 231);
+          color: rgb(231, 231, 231);
+          transition: 500ms ease;
+        }
+      }
+    }
+    button {
+      width: 200px;
+      padding: .5rem;
+      height: 6vh;
+      color: white;
+      background: transparent;
+      border: 2px solid $primary-color;
+      transition: 500ms ease;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: .9rem;
+      display: flex;
+      gap: .5rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        border: 2px solid white;
+        transition: 500ms ease;
+      }
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  .Header {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $primary-color;
+    gap: 1rem;
+    figure {
+      img {
+        width: 80px;
+        height: 80%;
+      }
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      margin-right: 0rem;
+      width: 550px;
+      justify-content: space-between;
+      li{
+        color: white;
+        cursor: pointer;
+        font-weight: 600;
+        list-style: none;
+        transition: 500ms ease;
+        border-bottom: 2px solid $primary-color;
+        &:hover{
+          border-bottom: 2px solid rgb(231, 231, 231);
+          color: rgb(231, 231, 231);
+          transition: 500ms ease;
+        }
+      }
+    }
+    button {
+      width: 200px;
+      padding: .5rem;
+      height: 6vh;
+      color: white;
+      background: transparent;
+      border: 2px solid $primary-color;
+      transition: 500ms ease;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: .9rem;
+      display: flex;
+      gap: .5rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        border: 2px solid white;
+        transition: 500ms ease;
+      }
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
+@media (max-width: 580px) {
+  .Header {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $primary-color;
+    gap: 1rem;
+    figure {
+      img {
+        width: 80px;
+        height: 80%;
+      }
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-right: 0rem;
+      width: 100%;
+      gap: .5rem;
+      justify-content: space-between;
+      li{
+        color: white;
+        cursor: pointer;
+        font-weight: 600;
+        list-style: none;
+        transition: 500ms ease;
+        border-bottom: 2px solid $primary-color;
+        &:hover{
+          border-bottom: 2px solid rgb(231, 231, 231);
+          color: rgb(231, 231, 231);
+          transition: 500ms ease;
+        }
+      }
+    }
+    button {
+      width: 200px;
+      padding: .5rem;
+      height: 6vh;
+      color: white;
+      background: transparent;
+      border: 2px solid $primary-color;
+      transition: 500ms ease;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: .9rem;
+      display: flex;
+      gap: .5rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        border: 2px solid white;
+        transition: 500ms ease;
+      }
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
