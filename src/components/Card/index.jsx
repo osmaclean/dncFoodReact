@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./index.scss";
 
 export default function Card({ data }) {
@@ -7,7 +8,9 @@ export default function Card({ data }) {
       <div className="Card__text">
         <span>{data.title}</span>
         <p>{data.price}</p>
-        <button>Adicionar</button>
+        <Link className="link" to={`/product/${data.id}`}>
+          <button>Adicionar</button>
+        </Link>
       </div>
     </div>
   );
